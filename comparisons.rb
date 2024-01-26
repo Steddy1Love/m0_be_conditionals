@@ -18,7 +18,7 @@ string_teachers = "4"
 numberDogs = 0
 
 # EXAMPLE: print the result of the comparison: is number_seachers greater than number_students?
-puts "Is number_teachers greater than number_students?", number_teachers > number_students
+puts "Is number_teachers greater than number_students?", number_students <= 21
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
@@ -54,20 +54,24 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 puts 4 < 9
 #YOU DO: Explain.
+# This is checking to see if the first integer is less than the second integer.
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# This is checking to see if the first integer is less than the variable.
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# This is checking to see if the first varible is less than the second variable
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+# This is checking to see if the first variable is not equal to the second variable
 
 
 #-------------------
@@ -90,15 +94,15 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+puts loves_to_play && (age <= 5)
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: It came out true because I believe the parenthesis contained the logical operation in the second half
